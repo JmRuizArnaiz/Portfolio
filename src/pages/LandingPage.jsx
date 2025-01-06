@@ -229,7 +229,7 @@ const images2 = useMemo(() => [a2, a3, a4], []); // Wrap the initialization in u
                       <span></span><span></span>
                         CV
                     </a>
-                    <a className='button' href="/certificates">
+                    <a className='button' to="/certificates">
                       <span></span><span></span>
                       <span></span><span></span>
                         CERTIFICATES
