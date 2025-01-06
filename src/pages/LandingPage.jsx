@@ -1,4 +1,5 @@
 import {useState,useEffect,useRef,useMemo}from 'react';
+import { Link } from "react-router-dom";
 
 //Styling import
 import '../styles/landingpage.css' 
@@ -229,11 +230,11 @@ const images2 = useMemo(() => [a2, a3, a4], []); // Wrap the initialization in u
                       <span></span><span></span>
                         CV
                     </a>
-                    <a className='button' to="/certificates">
+                    <Link className='button' to="/certificates">
                       <span></span><span></span>
                       <span></span><span></span>
                         CERTIFICATES
-                    </a>
+                    </Link>
                 </div>
             </div>
             
